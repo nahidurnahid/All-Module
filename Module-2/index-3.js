@@ -89,17 +89,17 @@ const rawApiData = [
 //TODO Slice => first 3 (top 3)
 //TODO Map => transfrom object shape to {name: "Name"}
 
-// const allData = rawApiData
-//   .filter((item) => item.category === "Electronics")
-//   .sort((x, y) => y.price - x.price)
-//   .slice((0, 3))
-//   .map((item) => {
-//     return {
-//       Name: item.product_name
-//     };
-//   });
+//const allData = rawApiData
+  // .filter((item) => item.category === "Electronics")
+  // .sort((x, y) => y.price - x.price)
+  // .slice((0, 3))
+  // .map((item) => {
+  //   return {
+  //     Name: item.product_name
+  //   };
+  // });
 
-// console.log(allData);
+//console.log(allData); ==>> //output[ { Name: 'Portable Charger' }, { Name: 'Wireless Mouse' } ]
 
 
 const allData = rawApiData
@@ -110,4 +110,11 @@ const allData = rawApiData
     return { Name: item.product_name };
   });
 
-console.log(allData);
+console.log(allData); 
+//output
+/*[
+  { Name: 'Smart Watch' },
+  { Name: 'Gaming Keyboard' },
+  { Name: 'Bluetooth Headphones' },
+  { Name: 'Portable Charger' }
+]*/

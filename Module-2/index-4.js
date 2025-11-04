@@ -19,4 +19,9 @@ const reng = (start, stop, step) =>
     (_, i) => start + i * step
   );
 
-console.log(reng(1, 501, 2));
+console.log(reng(5, 51, 5));
+//output
+/*[
+   5, 10, 15, 20, 25,
+  30, 35, 40, 45, 50
+]*/

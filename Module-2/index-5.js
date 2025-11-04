@@ -65,3 +65,11 @@ const scorer = players.reduce((bestPlayer, player) => {
 }, players[0]);
 
 console.log(scorer);
+//output
+/*{ name: 'Jamal Bhuyan', score: 88 } { name: 'Jamal Bhuyan', score: 88 }
+{ name: 'Jamal Bhuyan', score: 88 } { name: 'Shekh Morsalin', score: 81 }
+{ name: 'Jamal Bhuyan', score: 88 } { name: 'Rakib Hossain', score: 95 }
+{ name: 'Rakib Hossain', score: 95 } { name: 'Topu Barman', score: 91 }
+{ name: 'Rakib Hossain', score: 95 } { name: 'Sohel Rana', score: 72 }
+{ name: 'Rakib Hossain', score: 95 }
+*/
